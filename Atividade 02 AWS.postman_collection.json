@@ -1,0 +1,235 @@
+{
+	"info": {
+		"_postman_id": "a9bf4616-355e-4eb8-bf91-f6fb60a8572e",
+		"name": "Atividade 02 AWS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://api.github.com/repos/acoutinho12/Memorize",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.github.com/repos/acoutinho12/Memorize",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"repos",
+						"acoutinho12",
+						"Memorize"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.github.com/users/acoutinho12",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.github.com/users/acoutinho12",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"users",
+						"acoutinho12"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.github.com/repos/acoutinho12/SpacePark",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.github.com/repos/acoutinho12/SpacePark",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"repos",
+						"acoutinho12",
+						"SpacePark"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://pokeapi.co/api/v2/pokemon/ditto",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/pokemon/ditto",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemon",
+						"ditto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://pokeapi.co/api/v2/pokemon/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/pokemon/1",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemon",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://pokeapi.co/api/v2/ability/65/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/ability/65/",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"ability",
+						"65",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://catfact.ninja/fact",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://catfact.ninja/fact",
+					"protocol": "https",
+					"host": [
+						"catfact",
+						"ninja"
+					],
+					"path": [
+						"fact"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.boredapi.com/api/activity",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.boredapi.com/api/activity",
+					"protocol": "https",
+					"host": [
+						"www",
+						"boredapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"activity"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://www.boredapi.com/api/activity?participants=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.boredapi.com/api/activity?participants=1",
+					"protocol": "http",
+					"host": [
+						"www",
+						"boredapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"activity"
+					],
+					"query": [
+						{
+							"key": "participants",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://www.boredapi.com/api/activity?price=0.0",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.boredapi.com/api/activity?price=0.0",
+					"protocol": "http",
+					"host": [
+						"www",
+						"boredapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"activity"
+					],
+					"query": [
+						{
+							"key": "price",
+							"value": "0.0"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
